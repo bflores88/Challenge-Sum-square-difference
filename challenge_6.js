@@ -7,7 +7,6 @@
 exports.SumOfASquare = SumOfASquare;
 
 function SumOfASquare(naturalNumbers) {
-
   this.naturalNumbers = naturalNumbers;
 
   this.sumOfSquares = function () {
@@ -26,12 +25,6 @@ function SumOfASquare(naturalNumbers) {
     return Math.pow(sum, 2);
   }
 }
-
-
-// do work here
-
-
-
 
 // overwrite the object prototype, or add methods to the prototype
 // to satisfy the two method calls, sumOfSquares() and squareOfTheSums()
